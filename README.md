@@ -11,6 +11,11 @@ This project provides detailed documentation and scripts for setting up and conf
 ## Scripts
 - MQTT Sender: `src/python/mqtt_client_publish.py`
 - MQTT Listener : `src/python/mqtt_client.py`
+
+## Sample usage 
+- MQTT Sender : `python src/python/mqtt_client_publish.py --broker <broker_address> --port <broker_port> --topic "sensor/data" --message "Hello MQTT" --username "user" --password "pass"`
+- MQTT Listener: `python src/python/mqtt_client.py --broker <broker_address> --port <broker_port> --topic "sensor/data" --username "user" --password "pass"`
+
   
 ## Author
 - Osman ASLAN
