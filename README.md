@@ -9,8 +9,9 @@ This project provides detailed documentation and scripts for setting up and conf
 - Configuration: `docs/General_Configuration_Guide.md`
 
 ## Scripts
-- MQTT Sender: `src/python/mqtt_sender.py`
-
+- MQTT Sender: `src/python/mqtt_client_publish.py`
+- MQTT Listener : `src/python/mqtt_client.py`
+  
 ## Author
 - Osman ASLAN
 
